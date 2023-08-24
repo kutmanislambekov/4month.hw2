@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bb.jpg);
+    background-size: cover;
+    animation-name: bb;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bb {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 100% 40%;
+    }
+}
+.App{
+   width: 400px;
+   margin: 150px auto; 
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+td{
+    border: 5px solid ;
+    border-color: rgb(0, 255, 26) rgb(0, 251, 255) rgb(212, 0, 255) rgb(251, 255, 0);
+    padding: 10px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    background-color: pink;
+}
+button{
+    width: 80%;
+    padding: 10px;
+    background-color: aqua;
+}
+button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+   }
